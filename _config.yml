@@ -1,0 +1,15 @@
+title: Blog Site
+description: >- 
+  Security Enthusiast, Low Level Programmer, Reverse Engineer
+url: https://hamitabis.github.io/
+
+paginate: 1
+
+dash:
+  avatar_source: github
+  github_username: hamitabis
+
+remote_theme: bitbrain/jekyll-dash
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
