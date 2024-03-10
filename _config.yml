@@ -5,6 +5,10 @@ url: https://hamitabis.github.io/
 
 paginate: 5
 
+dash:
+  avatar_source: github
+  github_username: hamitabis
+
 remote_theme: bitbrain/jekyll-dash
 plugins:
   - jekyll-feed
