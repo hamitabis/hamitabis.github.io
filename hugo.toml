@@ -15,7 +15,7 @@ theme = 'maverick'
   [[menus.main]]
     identifier = "about"
     name = "Hakkımda"
-    url = "/about/
+    url = "/about/"
     
 [markup]
   [markup.goldmark.renderer]
@@ -34,3 +34,4 @@ theme = 'maverick'
     noHl = false
     style = 'monokailight'
     tabWidth = 4
+
