@@ -1,0 +1,4 @@
+baseURL = 'https://hamitabis.github.io/'
+languageCode = 'tr-tr'
+title = 'Security Enthusiast'
+theme = 'maverick'
