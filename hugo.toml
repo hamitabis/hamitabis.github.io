@@ -2,3 +2,13 @@ baseURL = 'https://hamitabis.github.io/'
 languageCode = 'tr-tr'
 title = 'Security Enthusiast'
 theme = 'maverick'
+
+[menus]
+  [[menus.main]]
+    name = 'Anasayfa'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    identifier = "posts"
+    name = "Yazılar"
+    url = "/posts/"
