@@ -11,12 +11,7 @@ theme = 'maverick'
   [[menus.main]]
     identifier = "posts"
     name = "Yazılar"
-    url = "/posts/"
-  [[menus.main]]
-    identifier = "about"
-    name = "Hakkımda"
-    url = "/about/"
-    
+    url = "/posts/"  
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
@@ -35,4 +30,5 @@ theme = 'maverick'
     style = 'monokailight'
     tabWidth = 4
 trailingSlash = true
+
 
