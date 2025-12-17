@@ -3,8 +3,7 @@ title: "Hoş Geldiniz"
 ---
 
 ### Selam 👋
-Yaklaşık 10 yıldır Siber Güvenlik alanıyla ilgileniyorum. <br>
-Şu anda bir danışmanlık firmasında SecOps Mühendisi olarak çalışmaktayım.
+Bir danışmanlık firmasında SecOps Mühendisi olarak çalışmaktayım. Bunun yanı sıra AppSec, DevSecOps ve Cyber Defense gibi alanlarda da deneyim sahibiyim.
 
 ### İlgimi Çeken Alanlar
 - Uygulama Güvenliği
