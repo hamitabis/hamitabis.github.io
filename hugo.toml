@@ -1,7 +1,6 @@
 baseURL = 'https://hamitabis.github.io/'
 languageCode = 'tr-tr'
 title = 'Security Enthusiast'
-theme = 'maverick'
 
 [menus]
   [[menus.main]]
@@ -30,5 +29,6 @@ theme = 'maverick'
     style = 'monokailight'
     tabWidth = 4
 trailingSlash = true
+
 
 
