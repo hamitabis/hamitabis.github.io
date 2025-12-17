@@ -34,4 +34,5 @@ theme = 'maverick'
     noHl = false
     style = 'monokailight'
     tabWidth = 4
+trailingSlash = true
 
