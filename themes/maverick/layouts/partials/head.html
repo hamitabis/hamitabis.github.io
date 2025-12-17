@@ -1,8 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
-    {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-    <style>{{ $styles.Content | safeCSS }}</style>
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono">
+    <link rel="stylesheet" href="scss/styles.scss">
 </head>
