@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
     <title>{{ .Site.Title }}</title>
-    {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-    <style>{{ $styles.Content | safeCSS }}</style>
+    {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
 </head>
