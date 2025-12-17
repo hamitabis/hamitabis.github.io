@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
     <style>{{ $styles.Content | safeCSS }}</style>
 </head>
