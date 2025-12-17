@@ -5,27 +5,4 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
     {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
     <style>{{ $styles.Content | safeCSS }}</style>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const burger = document.querySelector('.burger');
-            const nav = document.querySelector('.nav-menu');
-            const header = document.querySelector('header');
-        
-            if (burger) {
-                burger.addEventListener('click', () => {
-                    nav.classList.toggle('active');
-                    header.classList.toggle('menu-open');
-                });
-        
-                // Close menu when clicking outside
-                document.addEventListener('click', (e) => {
-                    if (!header.contains(e.target) && nav.classList.contains('active')) {
-                        nav.classList.remove('active');
-                        header.classList.remove('menu-open');
-                    }
-                });
-            }
-        });
-    </script> 
-  </head>
+</head>
