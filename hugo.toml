@@ -3,6 +3,9 @@ languageCode = 'tr-tr'
 title = 'Security Enthusiast'
 theme = 'maverick'
 
+[params]
+disableHugoGenerator = true
+
 [menus]
   [[menus.main]]
     name = 'Anasayfa'
@@ -30,6 +33,7 @@ theme = 'maverick'
     style = 'monokailight'
     tabWidth = 4
 trailingSlash = true
+
 
 
 
