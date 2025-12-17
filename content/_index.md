@@ -2,8 +2,9 @@
 title: "Hoş Geldiniz"
 ---
 
-## Selam 👋
-İsmim Hamit! 10 yıla yakın Siber Güvenlik alanıyla ilgileniyorum, şuan bir danışmanlık firmasında SecOps mühendisi olarak çalışıyorum.
+### Selam 👋
+Yaklaşık 10 yıldır Siber Güvenlik alanıyla ilgileniyorum. <br>
+Şu anda bir danışmanlık firmasında SecOps Mühendisi olarak çalışmaktayım.
 
 ### İlgimi Çeken Alanlar
 - Uygulama Güvenliği
