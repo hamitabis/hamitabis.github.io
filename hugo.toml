@@ -3,7 +3,6 @@ languageCode = 'tr-tr'
 title = 'Security Enthusiast'
 theme = 'maverick'
 
-[params]
 disableHugoGenerator = true
 
 [menus]
@@ -33,6 +32,7 @@ disableHugoGenerator = true
     style = 'monokailight'
     tabWidth = 4
 trailingSlash = true
+
 
 
 
