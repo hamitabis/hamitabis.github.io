@@ -9,7 +9,7 @@
       {{ $posts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
       {{ $limit := default 5 .Site.Params.items }}
       {{ if gt (len $posts) 0 }}
-        <h1>Latest Post</h1>
+        <h1>Son Yazılar</h1>
         <section>
           {{ range first $limit $posts }}
             <p>
