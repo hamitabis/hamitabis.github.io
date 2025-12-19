@@ -15,22 +15,41 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.back-button {
-    display: inline-block;
-    padding: 0.5em 1em;
-    font-size: 0.9rem;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-    color: #333;
-    text-decoration: none;
-    margin-bottom: 1em;
-    transition: background 0.2s ease;
+.button {
+  background-color: var(--site-bg-color); /* Sitenin background rengi ile uyumlu */
+  color: #fff;
+  width: 8.5em;
+  height: 2.9em;
+  border: #3654ff 0.2em solid; /* site temasına uygun border */
+  border-radius: 11px;
+  text-align: left;
+  position: relative;
+  transition: all 0.6s ease;
 }
 
-.back-button:hover {
-    background-color: #e0e0e0;
+.button:hover {
+  background-color: #3654ff; /* hover rengi site renk teması ile uyumlu */
+  cursor: pointer;
+  color: #fff;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: 0.65em 0 0 0.8em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(-5px);
+}
+
+.text {
+  margin: 0 0 0 2.2em;
+  line-height: 2.9em;
+  display: inline-block;
 }
 
 .skip-link {
