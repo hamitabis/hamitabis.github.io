@@ -14,9 +14,6 @@ body {
     background: #2e2e2e;
     color: #FFFFFF;
 }
-a {
-  text-decoration: none;
-}
 
 .skip-link {
     position: absolute;
@@ -319,4 +316,12 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none !important;
 }
