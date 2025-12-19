@@ -1,45 +1,27 @@
-baseURL = 'https://hamit.me/'
-languageCode = 'tr-tr'
-title = 'Security Enthusiast'
-theme = 'maverick'
+baseURL = "https://hamit.me/"
+languageCode = "tr-TR"
+title = "Security Enthusiast"
+theme = "maverick"
 
 disableHugoGeneratorInject = true
-disableHugoGenerator = true
-items = 5
 
 [menus]
   [[menus.main]]
-    name = 'Anasayfa'
-    pageRef = '/'
+    name = "Anasayfa"
+    pageRef = "/"
     weight = 10
+
   [[menus.main]]
-    identifier = "posts"
     name = "Yazılar"
-    url = "/posts/"  
+    pageRef = "/posts/"
+    weight = 20
+
 [markup]
   [markup.goldmark.renderer]
-    unsafe = true
+    unsafe = false
+
   [markup.highlight]
-    anchorLineNos = false
     codeFences = true
     guessSyntax = false
-    hl_Lines = ''
-    hl_inline = false
-    lineAnchors = ''
-    lineNoStart = 1
     lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    noHl = false
-    style = 'monokailight'
-    tabWidth = 4
-trailingSlash = true
-
-
-
-
-
-
-
-
-
+    style = "monokailight"
