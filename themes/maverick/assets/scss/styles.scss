@@ -3,8 +3,9 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Jetbrains+Mono&display=swap');
 body {
-    font: 1rem/1.5 "Jetbrains Mono";
+    font: 1rem/1.5 "Jetbrains Mono", 'Cascadia Mono', 'Fira Code', monospace;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
