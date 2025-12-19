@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ .Site.Title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">    
     {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}">
 </head>
