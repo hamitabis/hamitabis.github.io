@@ -8,14 +8,11 @@
       <section>
         <h1 class="post">{{ .Title }}</h1>
         {{ .Content }}
-        <button class="button">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <button class="back-button" onclick="history.back();">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75-6.75M4.5 12l6.75 6.75"></path>
           </svg>
-        
-          <div class="text">
-            Geri
-          </div>
+          <span class="text">Geri</span>
         </button>
       </section>
     </div>
