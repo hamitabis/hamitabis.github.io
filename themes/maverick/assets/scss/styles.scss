@@ -15,6 +15,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.back-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 1em;
+    transition: background 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #e0e0e0;
+}
+
 .skip-link {
     position: absolute;
     top: -40px;
