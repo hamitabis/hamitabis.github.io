@@ -5,6 +5,7 @@ theme = 'maverick'
 
 disableHugoGeneratorInject = true
 disableHugoGenerator = true
+items = 5
 
 [menus]
   [[menus.main]]
@@ -33,6 +34,7 @@ disableHugoGenerator = true
     style = 'monokailight'
     tabWidth = 4
 trailingSlash = true
+
 
 
 
