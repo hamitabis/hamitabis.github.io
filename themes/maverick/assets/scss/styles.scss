@@ -51,6 +51,8 @@ header li,
 header a,
 .tags li {
     display: inline;
+    font-family: "San Francisco Mono", monospace;
+    font-size: small;
 }
 
 header ul a {
@@ -76,7 +78,7 @@ a:active {
 }
 
 .time {
-    font-variant-numeric: tabular-nums;
+    variant-numeric: tabular-nums;
     white-space: nowrap;
 }
 
@@ -88,7 +90,7 @@ blockquote {
 
 pre,
 code {
-    font-family: "San Francisco Mono", monospace;
+    family: "San Francisco Mono", monospace;
     font-size: small;
     background: #eee;
 }
