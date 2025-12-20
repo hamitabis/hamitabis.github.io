@@ -1,9 +1,7 @@
 <header>
-  <p class="header-title">
-    <a href="{{ .Site.BaseURL }}">
-      <h3>{{ .Site.Title }}</h3>
-    </a>
-  </p>
+  <h3 class="header-title">
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  </h3>
   <nav class="nav-menu">
     <ul>
       {{ $currentPage := . }}
