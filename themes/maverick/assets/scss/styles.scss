@@ -51,8 +51,7 @@ header li,
 header a,
 .tags li {
     display: inline;
-    font-family: "San Francisco Mono", monospace;
-    font-size: small;
+    font: 1rem/1.2 "San Francisco Mono", monospace;
 }
 
 header ul a {
