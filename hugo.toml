@@ -7,12 +7,12 @@ disableHugoGeneratorInject = true
 
 [menus]
   [[menus.main]]
-    name = "Anasayfa"
+    name = "ana sayfa"
     pageRef = "/"
     weight = 10
 
   [[menus.main]]
-    name = "Yazılar"
+    name = "yazılar"
     pageRef = "/posts/"
     weight = 20
 
@@ -25,4 +25,5 @@ disableHugoGeneratorInject = true
     guessSyntax = false
     lineNos = false
     style = "monokailight"
+
 
