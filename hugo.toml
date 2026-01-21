@@ -1,6 +1,6 @@
 baseURL = "https://hamit.me/"
 languageCode = "tr-TR"
-title = "güvenlik meraklıs"
+title = "güvenlik meraklısı"
 theme = "maverick"
 
 disableHugoGeneratorInject = true
@@ -25,6 +25,7 @@ disableHugoGeneratorInject = true
     guessSyntax = false
     lineNos = false
     style = "monokailight"
+
 
 
 
