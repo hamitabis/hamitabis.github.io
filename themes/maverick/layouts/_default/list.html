@@ -10,7 +10,7 @@
         <ul class="list">
           {{ range .Pages }}
             <li>
-              <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <a class="link" href="{{ .RelPermalink }}">{{ .Title | lower }}</a>
               <hr class="hr-list">
               <time datetime="{{ .Date.Format "2006-01-02" }}">
                 {{ .Date.Format "02 Jan 2006" }}
