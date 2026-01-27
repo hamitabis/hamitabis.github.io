@@ -6,7 +6,7 @@
     <div class="content">
       {{ partial "header.html" . }}
       <section>
-        <h1 class="post">{{ .Title }}</h1>
+        <h1 class="post">{{ .Title | lower }}</h1>
         {{ .Content }}
       </section>
     </div>
